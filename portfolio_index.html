@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <title>Paritosh - Developer Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Paritosh's Portfolio</div>
+            <div class="right">
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Paritosh Thakur</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        <a href="CV-PARITOSH.pdf" target="_blank" style="color: white; text-decoration: none;">Download Resume</a>
+                    </button>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/ParitoshThakur-07" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/paritosh-thakur-bb7920262/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Paritosh_Image.png" alt="Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="work">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box"></div>
+            <ul class="experiences">
+                <li>Web Developer</li>
+                <li>Backend Developer</li>
+                <li>UI/UX Designer</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="secondsection" id="about">
+            <span class="text-gray">Get to know me</span>
+            <h1>About Me</h1>
+            <div class="box"></div>
+            <ul class="about">
+                <p>I am a disciple of Artificial Intelligence and Data Science currently studying 
+                    in Thadomal Shahani Engineering College, Mumbai and I love to explore the fascinating world of coding and 
+                    programming
+                </p>
+            </ul>
+        </section>
+        <hr>
+        <section class="secondsection" id="services">
+            <span class="text-gray">What I can do for you</span>
+            <h1>Services</h1>
+            <div class="box"></div>
+            <ul class="services">
+                <li>Web Development</li>
+                <li>Backend Development</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="secondsection" id="projects">
+            <span class="text-gray">Some of my works</span>
+            <h1>Projects</h1>
+            <div class="box"></div>
+            <ul class="projects">
+                <p><a target="_blank" style="color: rgb(239, 7, 7); text-decoration: none;" href="https://github.com/ParitoshThakur-07/My-calculator">Basic Calculator</a></p>
+                <p>Blog website</p>
+            </ul>
+        </section>
+        <hr>
+        <section class="secondsection" id="contact">
+            <span class="text-gray">Get in touch</span>
+            <h1>Contact Me</h1>
+            <div class="box"></div>
+            <ul class="contact">
+                <p>Email: thakurparitosh22@gmail.com</p>
+                <p>Phone: +91 80971 75868</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/paritosh-thakur-bb7920262/" target="_blank" style="color: rgb(239, 7, 7); text-decoration: none;">Paritosh Thakur</a></p>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Paritosh's Developer Portfolio</h3>
+                <p>Copyright &#169; | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="portfolio_script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Backend Developer', 'Tech enthusiast'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
